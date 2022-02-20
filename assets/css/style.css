@@ -61,10 +61,10 @@ margin-top: 85px;
 #navi{
     position: fixed;
     z-index: 5;
-    top: 170px;
+    top: 23%;
     left: -15px;
 }
-#about,#resume,#portfolio,#services,#contact{
+#about,#resume,#portfolio,#services,#contact,.skills-section{
     padding-top: 60px;
     /* text-align: center; */
     /* font-size: 35px; */
@@ -246,32 +246,7 @@ list-style-type: none;
     font-size: 18px;
     
 }
- .bar-lefth{
-    float: left;
-    font-size: 13px;    
-}
-.bar-righth{
-    float: right;
-    font-size: 15px;
-}
-.bar-lefth,.bar-righth{
-    margin-bottom: 10px;
-    font-weight: bold;
-
-    letter-spacing: 2px;
-}
-.progress{
-    clear:both;
-    border-radius: 0px;
-    height: 10px;
-}
-.skillsbar{
-    margin-bottom: 20px;
-}
-
-.progress-bar{
-    background-color: rgb(97, 92, 163);
-}
+ 
 #resume h2{
     font-size:26px ;
     font-weight: 700;
@@ -465,4 +440,30 @@ top: 2%;
 }
 #darktoggle i{
     font-size: 35px;
+}
+
+
+.skills-section .skill-content .skill-list{
+padding: 20px 20px;
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 12px;
+}
+.skills-section .skill-content .skill-list:hover{
+    background: rgb(44, 57, 131);
+}
+.skill-list:hover i{
+    color: white;
+}
+.skill-list i{
+    color: rgb(54, 62, 105);
+    font-size: 65px;
+}
+.skill-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }

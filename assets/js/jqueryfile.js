@@ -100,7 +100,36 @@ $('.phone').mouseleave(function(){
 'color':'black'
 });
 });
-$('body').removeClass('dark-body');
+$('body').addClass('dark-body');
+$('body').addClass('dark-body');
+$('#navi li').addClass('dark-navili');
+$('#navi li i').addClass('dark-links');
+$('#name-heading').addClass('dark-links');
+$('#hero').find('p#fixtype').addClass('dark-typehero');
+$('#typedd').addClass('dark-typehero');
+$('#social i').addClass('dark-namesocial');
+$('.yearh').addClass('dark-yearh');
+$('#resume h4').addClass('dark-resumeh4');
+$('#contact input').addClass('dark-contact');
+$('#contact textarea').addClass('dark-contact');
+$('#contact i').addClass('dark-contacti');
+$('#contact button').addClass('dark-button');
+$('#portfolio .card').addClass('dark-card');
+$('#about .col-lg-8 h2').addClass('dark-abouth2');
+$('section h1').addClass('dark-abouth2');
+$('#hero-filter').addClass('dark-hero')
+$('#darktoggle i').addClass('dark-toggleicon');
+if($(this).find('i').hasClass('bi-sun'))
+{
+    $(this).find('i').removeClass('bi-sun');
+    $(this).find('i').addClass('bi-moon');
+}
+else{
+    $(this).find('i').removeClass('bi-moon');
+    $(this).find('i').addClass('bi-sun');
+    
+}
+
 $('#darktoggle').click(
 function(){
     $('body').toggleClass('dark-body');
